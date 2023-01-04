@@ -1,4 +1,4 @@
-# SavedVariables-Parser-PHP
+# SavedVariables Parser PHP
 Parses SavedVariables file, to PHP array.
 
 This script written for home use to parse World Of Warcraft auctions data file.
