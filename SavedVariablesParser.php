@@ -2,18 +2,18 @@
 #
 # This script written for home use to parse World Of Warcraft auctions data file.
 #   Do not use them in public servers, because somebody can remoley hack your site.
-#   Primory target of this script to be fast, in that reasion this not converts
+#   Primary target of this script to be fast, in that reasion this not converts
 #   file to tokens, and parse tokens to multidim array.
 #
 # PS: If you wish to convert this, to parse real public files, you can use
 #   jailed environment, or just continue my work using my regular expressions.
 #
-#  With regards, LatDEV
-#
 # PSS: Free Software `MIT Licensed` free to use, for everyone.
 #
+#  With regards, LatDEV
+#
 
-if (!in_array($_SERVER['SERVER_NAME'], ['alocalhost', '127.0.0.1', ''])) {
+if (!in_array($_SERVER['SERVER_NAME'], ['localhost', '127.0.0.1', ''])) {
     throw new RuntimeException('Attention! This script is absolutely insecure! ' .
     'Never use it on public sites! ' .
     'It\'s raw and uses the eval function to transform the data!');
